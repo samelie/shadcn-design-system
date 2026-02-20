@@ -1,0 +1,21 @@
+/**
+ * Shadcn Vue Design System - Main Entry Point
+ *
+ * Choose ONE of the following import strategies:
+ *
+ * 1. Design System Integration (Current - uses @adddog/design-tokens)
+ *    - Imports @adddog/design-tokens
+ *    - Maps to shadcn-vue semantic tokens
+ *    - See css/tokens/semantic.css for mappings
+ *
+ * 2. Standalone Themes (Alternative - uses built-in themes)
+ *    - Uses theme variants from css/themes/
+ *    - No external design token dependency
+ *    - See css/main.css
+ */
+
+/* INACTIVE: Design System Integration (external @adddog/design-tokens) */
+/* @import "./css/my-styles.css"; */
+
+/* ACTIVE: Standalone Themes with sizing and touch variants */
+@import "./css/main.css";
