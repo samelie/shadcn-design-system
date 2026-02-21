@@ -38,7 +38,8 @@
     "lint:fix": "eslint --fix .",
     "types": "tsc --noEmit",
     "test": "echo 'no tests yet'",
-    "knip": "knip"
+    "knip": "knip",
+    "version:patch": "npm version patch --no-git-tag-version"
   },
   "author": "Sam Elie <sam@add.dog>",
   "peerDependencies": {
