@@ -1,6 +1,6 @@
 {
   "name": "@adddog/shadcn-design-system",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A collection of reusable React components built with Radix UI and Tailwind CSS, following the shadcn/ui pattern",
   "keywords": [
     "react",
