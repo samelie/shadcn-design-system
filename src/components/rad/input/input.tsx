@@ -1,6 +1,6 @@
-import type { InputVariants } from ".";
-import { inputVariants } from ".";
+import type { InputVariants } from "./input-variants";
 import { cn } from "../../../lib";
+import { inputVariants } from "./input-variants";
 
 function Input({
     className,
