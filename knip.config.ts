@@ -6,13 +6,13 @@ export default defineKnipConfig({
     entry: ["src/index.ts"],
     project: ["src/**/*.ts"],
 }, {
-    "ignoreDependencies": [
+    ignoreDependencies: [
         "@adddog/monorepo-consistency",
         "@adddog/tailwind-theme",
         "tailwindcss",
-        "tw-animate-css"
+        "tw-animate-css",
     ],
-    "ignoreBinaries": [
-        "knip"
-    ]
+    ignoreBinaries: [
+        "knip",
+    ],
 });
