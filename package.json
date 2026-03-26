@@ -39,7 +39,8 @@
     "types": "tsc --noEmit",
     "test": "echo 'no tests yet'",
     "knip": "knip",
-    "version:patch": "npm version patch --no-git-tag-version"
+    "version:patch": "npm version patch --no-git-tag-version",
+    "dev": "tsx src/index.ts"
   },
   "author": "Sam Elie <sam@add.dog>",
   "peerDependencies": {
